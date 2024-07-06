@@ -23,10 +23,12 @@ html {
     width: 350px;
     margin: 50px auto;
     box-shadow: 3px 3px 10px rgb(201, 200, 200);
+    transition: transform 0.5s ease-out;
   }
 
   .card-container:hover {
-    transform: scale(1.2);
+    transform: scale(1.05 );
+  
   }
   
   h1 {
@@ -37,6 +39,8 @@ html {
     font-family: 'Zilla Slab', serif;
     font-weight: 600;
   }
+
+ 
   
   .card-info {
     color: var(--color-grey-400);
@@ -64,6 +68,7 @@ html {
   .sub-details {
     width: 300px;
     margin: 30px 50px;
+    
   }
   
   
@@ -73,7 +78,7 @@ html {
   
   .icon {
     display: flex;
-    width: 10px;
+    width: 15px;
   }
   
   .sub-feature-text {
@@ -99,10 +104,12 @@ html {
     border: 2px solid rgb(224, 224, 224);
     font-size: var(--size-1);
     font-weight: 600;
+    
   }
   
   .button:hover {
     color: white;
     background-color: var(--color-primary-700);
     border: 2px solid rgb(255, 255, 255);
+    
   }
